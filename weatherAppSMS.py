@@ -51,8 +51,8 @@ CARRIERS = {
     "metro" : "@mymetropcs.com"
 }
 
-EMAIL = "codesjay2@gmail.com"
-PASSWORD = "ekrd esxg fkae tanf"
+EMAIL = " " # Replace with email
+PASSWORD = "" # Replace with carrier gateway password
 
 def send_message(phone_number, carrier, message):
     recipient = phone_number + CARRIERS[carrier]
@@ -74,8 +74,8 @@ if __name__ == "__main__":
     results = weather()
     
     # Default phone number, carrier, and message
-    phone_number = "19299556322"  # Replace with your actual phone number
-    carrier = "tmobile"  
+    phone_number = "1"  # Replace with your actual phone number
+    carrier = ""  # Replace with actual carrier
     message = results
 
     send_message(phone_number, carrier, message)
