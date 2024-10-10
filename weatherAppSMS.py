@@ -4,7 +4,7 @@ import sys
 import time
 
 def weather():
-    apiKey = '6f1f8ca74f48910feab6f914906402f9'
+    apiKey = ''
     city = input("Enter your city: ")
     units = input("Do you want info in Imperial (I) or Metric (M)?: ")
 
