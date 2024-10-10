@@ -1,11 +1,13 @@
 import requests
 
-apiKey = '6f1f8ca74f48910feab6f914906402f9'
+# Enter your API Key
+apiKey = ''
 
 city = input("Enter your city: ")
 
 units = input("Do you want info in Imperial(I) or Metric(M): ")
 
+# Set unit preferences
 if (units.upper() == "M"):
     units = "metric"
     displayUnit = " C Degrees"
