@@ -6,7 +6,7 @@ import sys
  
 
 def weather():
-    apiKey = '6f1f8ca74f48910feab6f914906402f9'
+    apiKey = ''
     city = cityEntry.get()
     units = unitEntry.get()
 
