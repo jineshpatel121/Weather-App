@@ -1,0 +1,15 @@
+from AQIHeatMap import get_AQI
+from weatherApp import get_weather
+
+def main():
+    choice = input("Do you want to get the weather or a heatmap of the Air Quality? (Enter Weather or AQI): ").strip().lower()
+    
+    if choice == "weather":
+        get_weather()
+    elif choice == "aqi":
+        get_AQI()
+    else:
+        print("Invalid choice. Please enter 'Weather' or 'AQI'.")
+
+if __name__ == "__main__":
+    main()
