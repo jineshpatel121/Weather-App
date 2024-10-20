@@ -6,7 +6,7 @@ from folium.plugins import HeatMap
 def get_AQI():
     
     # Set your OpenWeather API key here
-    apiKey = '6f1f8ca74f48910feab6f914906402f9'
+    apiKey = ' '
 
     # Read the CSV file (assuming it's named 'dfw_cities.csv')
     data = pd.read_csv('/Users/jineshpatel/Documents/Projects/Python/Weather/DFW_Cities.csv')  # Update this with the correct path
